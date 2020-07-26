@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.app {
+}
+.app-header {
+  background: #0963ac;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+}
+.list-wrapper {
+  width: 200px;
+  margin: 10px;
+}
+.list-item {
+  padding: 5px;
+  margin: 5px 0px;
+  color: #ffffff;
+  position: relative;
+}
+.list-item-inner {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  transform: translate(110%, 0%);
+  z-index: 5;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.list-item-inner-item {
+  color: #e6e6e6;
+  background: rgba(0, 81, 162, 1);
+  max-width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 5px 10px;
+}
+.list-item-inner-item:hover {
+  background: rgba(5, 52, 162, 0.84);
+}
+.list-item-inner-item span {
+  margin: 0px 5px;
+}
+.grey {
+  background-color: grey;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
